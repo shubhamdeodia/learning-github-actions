@@ -17,5 +17,3 @@ jobs:
         steps:
             - name: Step one
               uses: actions/checkout@v2
-            - name: Step two
-              uses: "Get-ChildItem Env: | Format-Table -Wrap -AutoSize"
